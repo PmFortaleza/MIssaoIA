@@ -6,15 +6,22 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Ano 2149. Você acaba de ser selecionado para integrar a tripulação da nave Estrela do Amanhã, a primeira missão humana para explorar uma galáxia distante. Ao entrar na nave, qual é a sua primeira reação?",
+        enunciado: "Desde o início, sua curiosidade alimentou a esperança de grandes descobertas.Ano 2149. Você acaba de ser selecionado para integrar a tripulação da nave Estrela do Amanhã, a primeira missão humana para explorar uma galáxia distante. Ao entrar na nave, qual é a sua primeira reação?",
         alternativas: [
             {
                 texto: "Ficar deslumbrado com a tecnologia e imaginar todas as aventuras que virão.",
-                afirmacao: "Desde o início, sua curiosidade alimentou a esperança de grandes descobertas."
+                afirmacao: [
+                    "Desde o início, sua curiosidade alimentou a esperança de grandes descobertas.",
+                    "kjaskjahsdjhd"
+                ]
             },
             {
                 texto: "Ficar apreensivo, pensando nos perigos e imprevistos que podem surgir.",
-                afirmacao: "Mesmo com receio, decidiu seguir em frente, determinado a enfrentar qualquer desafio."
+                afirmacao: [
+                    "Mesmo com receio, decidiu seguir em frente, determinado a enfrentar qualquer desafio.",
+                    "jdhksjdhfisjdh"
+            ]
+
             }
         ]
     },
@@ -23,11 +30,18 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Apoiar o pouso imediato para coletar amostras e conhecer o planeta.",
-                afirmacao: "Foi um dos primeiros a pisar no solo alienígena, registrando imagens impressionantes."
+                afirmacao: [
+                    "Foi um dos primeiros a pisar no solo alienígena, registrando imagens impressionantes.",
+                    "kjasdiaj"
+            ]
+            
             },
             {
                 texto: "Sugerir um sobrevoo inicial para analisar riscos antes de pousar.",
-                afirmacao: "Sua cautela ajudou a evitar que a equipe fosse pega por uma tempestade inesperada."
+                afirmacao: [
+                    "Sua cautela ajudou a evitar que a equipe fosse pega por uma tempestade inesperada.",
+                    "ajkshkajshk"
+            ]
             }
         ]
     },
@@ -36,11 +50,17 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Entrar para investigar e tentar entender quem ou o que viveu ali.",
-                afirmacao: "Descobriu símbolos antigos que indicavam um possível mapa estelar."
+                afirmacao: [
+                    "Descobriu símbolos antigos que indicavam um possível mapa estelar.",
+                    "ksjdhksjdhfsjdf"
+            ]
             },
             {
                 texto: "Recolher dados de fora e evitar contato direto até compreender melhor.",
-                afirmacao: "Garantiu que a missão mantivesse segurança enquanto analisava sinais de vida."
+                afirmacao: [
+                    "Garantiu que a missão mantivesse segurança enquanto analisava sinais de vida.",
+                    "kasjhkahsda"
+            ]
             }
         ]
     },
@@ -49,11 +69,17 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Seguir o sinal, acreditando que possa levar a uma grande descoberta.",
-                afirmacao: "A mudança de rota levou a encontrar uma estação espacial abandonada cheia de recursos."
+                afirmacao: [
+                    "A mudança de rota levou a encontrar uma estação espacial abandonada cheia de recursos.",
+                    "lksdhkjshdfkjshdf"
+            ]
             },
             {
                 texto: "Ignorar o sinal e manter a rota original para garantir a segurança da tripulação.",
-                afirmacao: "Sua decisão garantiu que todos chegassem a salvo ao próximo ponto da missão."
+                afirmacao: [
+                    "Sua decisão garantiu que todos chegassem a salvo ao próximo ponto da missão.",
+                    "skjdfksjdksjdksjdfksjdh"
+            ]
             }
         ]
     },
@@ -62,11 +88,17 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Assumir o risco de reparar o reator manualmente, mesmo sem equipamento ideal.",
-                afirmacao: "Seu ato de coragem salvou a nave, permitindo que a missão continuasse."
+                afirmacao: [
+                    "Seu ato de coragem salvou a nave, permitindo que a missão continuasse.",
+                    "jskhkjhdfkjhsdkffjhs"
+            ]
             },
             {
                 texto: "Ativar o protocolo de emergência e usar energia reserva, encurtando a missão.",
-                afirmacao: "A missão terminou antes do previsto, mas todos retornaram com segurança à Terra."
+                afirmacao: [
+                    "A missão terminou antes do previsto, mas todos retornaram com segurança à Terra.",
+                    "skjdhfksjdhfksjdhfsds"
+            ]
             }
         ]
     },
