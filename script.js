@@ -6,72 +6,71 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Ano 2149. Você acaba de ser selecionado para integrar a tripulação da nave Estrela do Amanhã, a primeira missão humana para explorar uma galáxia distante. Ao entrar na nave, qual é a sua primeira reação?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Ficar deslumbrado com a tecnologia e imaginar todas as aventuras que virão.",
+                afirmacao: "Desde o início, sua curiosidade alimentou a esperança de grandes descobertas."
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Ficar apreensivo, pensando nos perigos e imprevistos que podem surgir.",
+                afirmacao: "Mesmo com receio, decidiu seguir em frente, determinado a enfrentar qualquer desafio."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Após alguns dias de viagem, um planeta com atmosfera respirável é detectado. O capitão pede que a equipe decida se deve pousar para investigar. Qual sua posição?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Apoiar o pouso imediato para coletar amostras e conhecer o planeta.",
+                afirmacao: "Foi um dos primeiros a pisar no solo alienígena, registrando imagens impressionantes."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Sugerir um sobrevoo inicial para analisar riscos antes de pousar.",
+                afirmacao: "Sua cautela ajudou a evitar que a equipe fosse pega por uma tempestade inesperada."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Durante a exploração, a equipe encontra uma estrutura misteriosa que parece ter sido construída por seres inteligentes. Qual atitude você toma?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Entrar para investigar e tentar entender quem ou o que viveu ali.",
+                afirmacao: "Descobriu símbolos antigos que indicavam um possível mapa estelar."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Recolher dados de fora e evitar contato direto até compreender melhor.",
+                afirmacao: "Garantiu que a missão mantivesse segurança enquanto analisava sinais de vida."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "No caminho de volta à nave, um sinal desconhecido é captado vindo do espaço profundo. O capitão pergunta se deve alterar a rota para investigá-lo. O que você sugere?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Seguir o sinal, acreditando que possa levar a uma grande descoberta.",
+                afirmacao: "A mudança de rota levou a encontrar uma estação espacial abandonada cheia de recursos."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Ignorar o sinal e manter a rota original para garantir a segurança da tripulação.",
+                afirmacao: "Sua decisão garantiu que todos chegassem a salvo ao próximo ponto da missão."
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Já próximo ao destino final, um problema no reator principal ameaça a missão. É preciso agir rápido. Qual a sua escolha?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "Assumir o risco de reparar o reator manualmente, mesmo sem equipamento ideal.",
+                afirmacao: "Seu ato de coragem salvou a nave, permitindo que a missão continuasse."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Ativar o protocolo de emergência e usar energia reserva, encurtando a missão.",
+                afirmacao: "A missão terminou antes do previsto, mas todos retornaram com segurança à Terra."
             }
         ]
     },
 ];
-
 
 let atual = 0;
 let perguntaAtual;
@@ -105,7 +104,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Diário da Missão – Registro Final";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
